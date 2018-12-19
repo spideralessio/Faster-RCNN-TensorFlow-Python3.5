@@ -1,0 +1,15 @@
+http://image-net.org/synset?wnid=n02701002 ambulance
+http://image-net.org/synset?wnid=n02930766 cab
+http://image-net.org/synset?wnid=n03670208 limo
+http://image-net.org/synset?wnid=n03345487 fire truck
+http://image-net.org/synset?wnid=n04490091 truck
+http://image-net.org/synset?wnid=n04520170 van
+http://image-net.org/synset?wnid=n03977966 police van
+http://image-net.org/synset?wnid=n04335435 tram
+http://image-net.org/synset?wnid=n04389033 tank
+http://image-net.org/synset?wnid=n03790512 moto
+http://image-net.org/synset?wnid=n02924116 bus
+http://image-net.org/synset?wnid=n03594945 jeep
+http://image-net.org/synset?wnid=n03119396 coupe
+http://image-net.org/synset?wnid=n03100240 convertible
+http://image-net.org/synset?wnid=n02834778 bicyle
