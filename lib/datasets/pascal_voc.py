@@ -68,6 +68,9 @@ class pascal_voc(imdb):
         """
         image_path = os.path.join(self._data_path, 'JPEGImages',
                                   index + self._image_ext)
+        if not os.path.exists(image_path):
+            image_path = os.path.join(self._data_path, 'JPEGImages',
+                                  index + self._image_ext.upper())
         assert os.path.exists(image_path), \
             'Path does not exist: {}'.format(image_path)
         return image_path
