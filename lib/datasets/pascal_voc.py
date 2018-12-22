@@ -30,30 +30,7 @@ class pascal_voc(imdb):
         self._devkit_path = self._get_default_path() if devkit_path is None \
             else devkit_path
         self._data_path = os.path.join(self._devkit_path, 'VOC' + self._year)
-        self._classes = ['n02924554',
-                         'n03079136',
-                         'n03100240',
-                         'n03119396',
-                         'n03268790',
-                         'n03421669',
-                         'n03493219',
-                         'n03498781',
-                         'n03539103',
-                         'n03543394',
-                         'n03594945',
-                         'n03680512',
-                         'n03770679',
-                         'n03777568',
-                         'n03870105',
-                         'n04097373',
-                         'n03670208',
-                         'n04285008',
-                         'n04285965',
-                         'n04302988',
-                         'n04322924',
-                         'n04347119',
-                         'n04459122',
-                         'n04516354']
+        self._classes = ['n02701002', 'n02834778', 'n02924116', 'n02930766', 'n03100240', 'n03119396', 'n03345487', 'n03594945', 'n03670208', 'n03790512', 'n03977966', 'n04335435', 'n04389033', 'n04490091', 'n04520170']
         self._class_to_ind = dict(list(zip(self.classes, list(range(self.num_classes)))))
         self._image_ext = '.jpg'
         self._image_index = self._load_image_set_index()
